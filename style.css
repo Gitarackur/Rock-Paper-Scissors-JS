@@ -1,0 +1,156 @@
+* {
+    padding : 0;
+    margin : 0;
+	box-sizing: border-box;
+}
+
+body {
+    background : black;
+    color : white;
+}
+
+
+#Heading{
+	background-color: rgba(255,255,0,1);
+	color: black;
+	font-size:50px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding:50px;
+}
+
+
+
+
+.active{
+	background-color: red;
+	color:white;
+}
+
+
+
+
+
+
+#GamePanel{
+	display: flex;
+	background-color: white;
+	color: black;
+}
+
+
+
+
+
+#Computer{
+	width:50%;
+}
+
+#Comp1{
+	font-size:50px;
+	text-align: center;
+	padding:30px;
+}
+
+#Comp2{
+	font-size:30px;
+	text-align: center;
+	padding:30px;
+}
+
+#Comp3{
+	font-size:50px;
+	text-align: center;
+	padding:30px;
+}
+
+
+#Computer img{
+	position: relative;
+	left: 25%;
+	width:50%;
+	height:400px;
+}
+
+
+
+
+
+
+
+
+#player{
+	width:50%;
+}
+
+#play1{
+	font-size:50px;
+	text-align: center;
+	padding:30px;
+}
+
+#play2{
+	font-size:30px;
+	text-align: center;
+	padding:30px;
+}
+
+#play3{
+	font-size:50px;
+	text-align: center;
+	padding:30px;
+}
+
+#player img{
+	position: relative;
+	left: 25%;
+	width:50%;
+	height:400px;
+	
+}
+
+
+
+#Gameplay{
+	display: flex;
+	margin-top:20px;
+}
+
+.btn-stop{
+	width: 30%;
+	display: block;
+	background-color: rgba(255,255,0,1);
+	color: black;
+	font-size:50px;
+	text-align: center;
+	padding:50px;
+	margin-left: 1.5%;
+	margin-right:1.5%;
+	border-radius:50px;
+}
+
+.btn-play{
+	width: 30%;
+	display: block;
+	background-color: rgba(255,255,0,1);
+	color: black;
+	font-size:50px;
+	text-align: center;
+	padding:50px;
+	margin-left:1.5%;
+	margin-right:1.5%;
+	border-radius:50px;
+}
+
+.btn-new{
+	width: 30%;
+	display: block;
+	background-color: rgba(255,255,0,1);
+	color: black;
+	font-size:50px;
+	text-align: center;
+	padding:50px;
+	margin-left:1.5%;
+	margin-right:1.5%;
+	border-radius:50px;
+}
